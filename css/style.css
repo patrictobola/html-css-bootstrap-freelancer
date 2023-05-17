@@ -1,3 +1,6 @@
 .debug {
   border: 1px dashed black;
 }
+header {
+  height: 80px;
+}
