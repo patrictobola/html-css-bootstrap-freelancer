@@ -1,9 +1,6 @@
 .debug {
   border: 1px dashed black;
 }
-header {
-  height: 80px;
-}
 .bg-green {
   background-color: #1abc9c;
 }
@@ -12,4 +9,43 @@ header {
 }
 .text-dark-blue {
   color: #2c3e50;
+}
+.bg-light-blue {
+  background-color: #3a546d;
+}
+footer .col .a {
+  color: white;!important
+}
+textarea {
+  width: 100%;
+}
+#socials a{
+  color: white;
+}
+#socials a:hover{
+  color: rgba(0, 0, 0, 0.3);
+}
+.fa-facebook-f,
+.fa-twitter {
+  color: var(--bs-info)
+}
+.fa-google-plus-g {
+  color: var(--bs-red)
+}
+.fa-linkedin-in {
+  color: var(--bs-primary)
+}
+form .form-control {
+  padding-left: 0;
+  padding-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
+}
+
+#contacts ::placeholder {
+  color: black;
+}
+#contacts .form-control:focus {
+  box-shadow: none;
 }
